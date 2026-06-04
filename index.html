@@ -5,48 +5,85 @@
 
     <style>
         body{
-            background:black;
+            background:#111;
             color:white;
+            font-family:Arial, sans-serif;
             text-align:center;
-            font-family:Arial;
-            padding-top:50px;
+            margin:0;
+            padding:0;
+        }
+
+        .container{
+            max-width:800px;
+            margin:auto;
+            padding:40px 20px;
+        }
+
+        img{
+            width:300px;
+            border-radius:10px;
+            margin-bottom:20px;
         }
 
         h1{
-            font-size:50px;
+            font-size:48px;
+            margin-bottom:10px;
         }
 
-        p{
+        .tagline{
             font-size:20px;
+            color:#ccc;
+            margin-bottom:30px;
         }
 
-        a{
+        .desc{
+            line-height:1.8;
+            color:#ddd;
+            margin-bottom:30px;
+        }
+
+        .btn{
             display:inline-block;
             padding:12px 25px;
             margin:10px;
             color:white;
             text-decoration:none;
-            border-radius:10px;
+            border-radius:8px;
             background:#333;
+        }
+
+        .btn:hover{
+            background:#555;
         }
     </style>
 </head>
 
 <body>
 
-    <img src="photo_2026-06-05_00-39-19.jpg" width="300">
+    <div class="container">
 
-    <h1>Sukabumi Troops</h1>
+        <img src="photo_2026-06-05_00-39-19.jpg">
 
-    <p>Represent your city. Wear your pride.</p>
+        <h1>Sukabumi Troops</h1>
 
-    <a href="https://instagram.com/tropsmerch">
-        Instagram
-    </a>
+        <p class="tagline">
+            Represent your city. Wear your pride.
+        </p>
 
-    <a href="https://wa.me/085861351521">
-        Order via WhatsApp
-    </a>
+        <p class="desc">
+            Welcome to Sukabumi Troops. A local streetwear brand inspired by culture,
+            community, and everyday style. Explore our collection and wear your city with pride.
+        </p>
+
+        <a class="btn" href="https://instagram.com/tropsmerch">
+            Instagram
+        </a>
+
+        <a class="btn" href="https://wa.me/6285861351521">
+            Order via WhatsApp
+        </a>
+
+    </div>
 
 </body>
 </html>
